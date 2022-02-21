@@ -41,7 +41,7 @@
     font-size: 16px;
 }
 
-.f47-text h1, .hero-text p {
+.f47-text h1, f47-text p {
     margin-bottom: 35px;
 }
 
@@ -172,4 +172,87 @@ hr {
     gap: 10px;
     margin-bottom: 5px;
     font-size: 12px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .f47 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .f47-image{
+        display: flex;
+        justify-content: center;
+    }
+
+    .f47-text {
+        text-align: center;
+        margin-top: 20px;
+        width: auto;
+    }
+    .post {
+        padding: 15px 15px;
+    }
+
+    .post-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 15px;
+    }
+
+    .featured {
+        display: flex;
+    }
+
+    .content-work {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: auto;
+        
+    }
+
+    .content-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-text {
+        text-align: center;
+        width: auto;
+    }
+
+    .content-text h2 {
+        font-size: 20px;
+    }
+
+    .content-text button {
+        font-size: 15px;
+    }
+
+    .content-text label {
+        font-size: 15px;
+    }
+
+    .content-text p {
+        margin: 15px 15px;
+    }
+    hr {
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
 }
